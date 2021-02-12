@@ -1,4 +1,4 @@
-# Welcome to my blog
+# 向陽のページ
 
 I'm glad you are here. I plan to talk about ...
 珪藻
