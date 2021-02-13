@@ -1,86 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>kkoyo1009のホームページ</title>
-	<style>
-h1 {
-    font-weight: normal;
-    padding-bottom: 10px;
-    text-align: center;
-    position: relative;
-    margin: 0 0 30px 0;
-    letter-spacing: 5px;
-}
- 
-p {
-    width: 50%;
-    line-height: 2;
-    display: inline-block;
-    background-color: #03A9F4;
-    padding: 20px;
-    position: relative;
-    z-index: 999;
-    margin: 50px 0 0;
-    color: #fff;
-    letter-spacing: 2px;
-}
- 
-a {
-    color: #fff;
-    text-decoration: none;
-    background-color: #F44336;
-    display: block;
-    padding: 15px 25px;
-    border-radius: 5px;
-    box-shadow: 0 4px 0 0 #9e2b23;
-    font-weight: bold;
-    width: 300px;
-    text-align: center;
-    margin: 110px auto 0;
-    letter-spacing: 2px;
-}
- 
-h1::after {
-    content: "";
-    display: block;
-    border-bottom: solid 5px #2196F3;
-    position: absolute;
-    width: 100px;
-    right: 0;
-    left: 0;
-    margin: auto;
-    bottom: -5px;
-}
- 
-html {
-    background-color: #a8e4ff;
-}
- 
-body {
-    background-color: #fff;
-    padding: 30px 30px 30px;
-    max-width: 700px;
-    margin: 20px auto;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.18);
-    border-radius: 3px;
-    position: relative;
-}
- 
-img {
-    height: 300px;
-    display: inline-block;
-    vertical-align: top;
-    position: absolute;
-    right: 30px;
-}
-</style>
-</head>
-<body>
-	<h1>珪藻の世界</h1>
-  <h2>珪藻とは何か
-	<p>珪藻とは，〜〜〜</p>
-	<img src="nippara_river.png" alt="">
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Koyo's Plankton Room</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body background="./image/スクリーンショット 2021-02-13 14.00.36.png">
+    <h1 class="h1">Welcome to Koyo's Plankton Room</h1>
+
+    <div class="area"> 
+    <p class="style1">Plankton Roomといいながらほとんどはベントスだったりします。<br>スケールバーは10μmで，入っていない画像のサイズは適当です。<br>
+   　　 <img src="./image/IMG_2884.jpg" alt="Genshigahara wetland"　width="500" height="300"> <img src="./image/nippara_river1.jpg" alt="Nippara river"　width="500" height="300">　</p>
+    </div>
+
+    <div class="area">
+
+      <input type="radio" name="tab_name" id="tab1" checked>
+      <label class="tab_class" for="tab1">池の珪藻</label>
+    
+      <div class="content_class">
+        <img src="./image/komaba_pond.png" alt="Komaba Pond"　width="300" height="300">
+        <img src="./image/kumogata_pond.png" alt="Kumogata Pond"　width="300" height="600">
+      </div>
+
+      <input type="radio" name="tab_name" id="tab2" >
+      <label class="tab_class" for="tab2">川の珪藻</label>
+      <div class="content_class">
+        <img src="./image/nippara_river.png" alt="Nippara Pond" width="600">
+        <img src="./image/cymbella1000-1-cutout.png" width="80%">
+        <img src="./image/cymbella暗視野.jpg" width="60%">
+        <img src="./image/2021-02-03-12-38-45.jpg" width="40%">
+        <img src="./image/2021-02-03-12-34-58.jpg" width="40%">
+      </div>
+
+      <input type="radio" name="tab_name" id="tab3" >
+      <label class="tab_class" for="tab3">湿原の珪藻</label>
+      <div class="content_class">
+        <img src="./image/genshigahara_wetland.png" alt="Komaba Pond"　width="500" height="500">
+      </div>
+      <input type="radio" name="tab_name" id="tab4" >
+      <label class="tab_class" for="tab4">海の珪藻</label>
+      <div class="content_class">
+        <p>coming soon...</p>
+      </div>
+
+      <input type="radio" name="tab_name" id="tab5" >
+      <label class="tab_class" for="tab5">珪藻で遊ぶ</label>
+      <div class="content_class">
+        <p>並べてみた</p>
+        <img src="./image/2020-11-27-23-51-19.jpg" width="60%">
+        <p>パワポで</p>
+        <img src="./image/スクリーンショット 2021-02-13 12.54.26.png" width="50%">
+        <img src="./image/スクリーンショット 2021-02-13 12.55.41.png" width="50%">
+      </div>
+
+      <input type="radio" name="tab_name" id="tab6" >
+      <label class="tab_class" for="tab6">その他の藻類</label>
+      <div class="content_class">
+        <p>スーパーグループ</p>
+        <img src="./image/スクリーンショット 2021-02-13 12.57.02.png"　width="55%" height="55%">
+      </div>
+    </div>
+  </div>
+
+  </body>
 </html>
