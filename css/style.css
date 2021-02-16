@@ -107,8 +107,8 @@ ul {
 .area1 {
     width: 900px;
     margin-top: 10pt;
-    margin-left:auto;
-    margin-right: auto;
+    margin-left:20pt;
+    margin-right: 20pt;
     flex-wrap: wrap;
     background-color: #fffdf2;
   }
