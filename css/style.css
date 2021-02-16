@@ -96,3 +96,8 @@ p.title {
   /*余白をつけておきます*/
   padding: 10px;
 }
+
+ul {
+  /*2px 水色 破線を指定*/
+  border: 2px skyblue dashed; 
+}
