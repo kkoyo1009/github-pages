@@ -109,6 +109,7 @@ ul {
     margin-top: 10pt;
     margin-left:auto;
     margin-right: auto;
+    margin-bottom: 10pt;
     flex-wrap: wrap;
     background-color: #fffdf2;
   }
