@@ -101,10 +101,11 @@ ul {
   border: 2px skyblue dashed; 
     background: #f3fbff;
   border: 2px skyblue dashed;
-     padding-left: 20pt;
-     padding-right: 100pt;
+     margin-left: 20pt;
+     margin-right: 100pt;
     padding-top: 10pt;
     padding-bottom: 10pt;
+    
 }
 
 ul li {
