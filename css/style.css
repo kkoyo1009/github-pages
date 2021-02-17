@@ -107,6 +107,11 @@ ul {
     padding-bottom: 10pt;
 }
 
+ul li {
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
 .area1 {
     width: 900px;
     margin-top: 10pt;
