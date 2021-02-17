@@ -21,7 +21,6 @@ background-color: #fffdf2;
       padding-left: 15pt;
       padding-right: 15pt;
       font-size: 17px;
-      padding-top: 10pt;
     }
 
   .area {
@@ -126,3 +125,9 @@ ul li {
     background-color: #fffdf2;
   }
 
+  p.style3{
+      padding-left: 15pt;
+      padding-right: 15pt;
+      font-size: 17px;
+      padding-top: 10pt;
+    }
