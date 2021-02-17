@@ -80,7 +80,8 @@ background-color: #fffdf2;
     }
 
 h2{
-　text-align:center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h3{
