@@ -97,19 +97,18 @@ p.title {
 }
 
 ul {
-  /*2px 水色 破線を指定*/
-  border: 2px skyblue dashed; 
-    background: #f3fbff;
-  border: 2px skyblue dashed;
+ color: #1e366a;
+  border-top: solid #1e366a 1px;/*上のボーダー*/
+  border-bottom: solid #1e366a 1px;/*下のボーダー*/
+  padding: 0.5em 0 0.5em 1.5em;
      margin-left: 20pt;
      margin-right: 100pt;
-    padding-top: 10pt;
-    padding-bottom: 10pt;
     
 }
 
 ul li {
-  padding-top:10px;
+ line-height: 1.5;
+  padding: 0.5em 0;
 }
 
 .area1 {
