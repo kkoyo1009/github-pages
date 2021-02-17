@@ -88,9 +88,7 @@ h3{
     padding-top: 10pt;
 }
 
-.ul{
-    display: block;
-}
+
 p.title {
   border-left :solid 5px orange;
   border-bottom: solid 1px gray;
@@ -103,8 +101,8 @@ ul {
   border: 2px skyblue dashed; 
     background: #f3fbff;
   border: 2px skyblue dashed;
-         padding-left: 20pt;
-      padding-right: 100pt;
+     padding-left: 20pt;
+     padding-right: 100pt;
     padding-top: 10pt;
     padding-bottom: 10pt;
 }
